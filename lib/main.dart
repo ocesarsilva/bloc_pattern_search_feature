@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-        create: (_) => SearchBloc(),
-        child: const MaterialApp(
-          debugShowCheckedModeBanner: false,
-          home: SearchWordPage(),
-        ));
+      create: (_) => SearchBloc(),
+      child: const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: SearchWordPage(),
+      ),
+    );
   }
 }

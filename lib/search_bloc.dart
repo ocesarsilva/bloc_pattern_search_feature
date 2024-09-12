@@ -20,11 +20,11 @@ class SearchBloc extends Bloc<SearchEvent, SearchState> {
   }
 
   static List<String> words = [
-    'A',
-    'B',
-    'C',
-    'D',
-    'E',
-    'F',
+    'Apple',
+    'Banana',
+    'Cherry',
+    'Date',
+    'Elderberry',
+    'Fig',
   ];
 }
